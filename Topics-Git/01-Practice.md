@@ -74,7 +74,7 @@ We will focus on creating a brand new local repository (repo). For now we will
 not link it to GitHub, GitLab, or another remote host.
 
 Since git repos need code... we will use one of my Python lectures from CS 417
-(Computational Methods). Open [Python non-linear solver discussion](https://www.cs.odu.edu/~tkennedy/cs417/s20/Public/solverDiscussion/)
+(Computational Methods). Open [Python non-linear solver discussion](https://www.cs.odu.edu/~tkennedy/cs417/latest/Public/solverDiscussion/)
 in your web browser.
 
   1. In your terminal create a new folder. You may use any name you choose
@@ -117,7 +117,7 @@ your name and email globally (i.e., for all repos) add `--global` after
 
 Since this is a git workshop (and not a programming workshop) we will use the
 code examples from
-[a CS 417 Python non-linear solver discussion](https://www.cs.odu.edu/~tkennedy/cs417/s20/Public/solverDiscussion/)
+[a CS 417 Python non-linear solver discussion](https://www.cs.odu.edu/~tkennedy/cs417/latest/Public/solverDiscussion/)
 to simulate writing code.
 
 Before we add code... two files should be added:
@@ -248,7 +248,7 @@ repo:
 
 We will create a [multimarkdown](https://michaelhyatt.com/multimarkdown/) style
 `README.md`. We will base our document on [what I require of my CS 417/517
-students](https://www.cs.odu.edu/~tkennedy/cs417/s20/Public/exampleReadme/index.html#python-example).
+students](https://www.cs.odu.edu/~tkennedy/cs417/latest/Public/exampleReadme/index.html#python-example).
 
 
   1. Create a new file `README.md` in your repo.
@@ -312,32 +312,32 @@ creation. These files must never be an afterthought.
 
   1. Create new Python file named `newtons_method.py`.
   2. Copy the example code from the `newtons_method_1.py` listing from
-     [here](https://www.cs.odu.edu/~tkennedy/cs417/s20/Public/solverDiscussion/)
+     [here](https://www.cs.odu.edu/~tkennedy/cs417/latest/Public/solverDiscussion/)
      into the file.
   3. Run `git add newtons_method.py`
   4. Run `git commit -m "Add initial draft of newton's method code"`
   5. Copy the example code from the `newtons_method_2.py` listing from
-     [here](https://www.cs.odu.edu/~tkennedy/cs417/s20/Public/solverDiscussion/)
+     [here](https://www.cs.odu.edu/~tkennedy/cs417/latest/Public/solverDiscussion/)
      into `newtons_method.py`, replacing the previous contents.
   6. Run `git add .`
   7. Run `git commit -m "Tweak code to use tuples and tuple unpacking"`
   8. Copy the example code from the `newtons_method_3.py` listing from
-     [here](https://www.cs.odu.edu/~tkennedy/cs417/s20/Public/solverDiscussion/)
+     [here](https://www.cs.odu.edu/~tkennedy/cs417/latest/Public/solverDiscussion/)
      into `newtons_method.py`, replacing the previous contents.
   8. Run `git add .`
   8. Run `git commit -m "Annotate code with Python type hints"`
   8. Copy the example code from the `newtons_method_4.py` listing from
-     [here](https://www.cs.odu.edu/~tkennedy/cs417/s20/Public/solverDiscussion/)
+     [here](https://www.cs.odu.edu/~tkennedy/cs417/latest/Public/solverDiscussion/)
      into `newtons_method.py`, replacing the previous contents.
   8. Run `git add .`
   8. Run `git commit -m "Add missing pydoc function docstrings"`
   8. Copy the example code from the `newtons_method_5.py` listing from
-     [here](https://www.cs.odu.edu/~tkennedy/cs417/s20/Public/solverDiscussion/)
+     [here](https://www.cs.odu.edu/~tkennedy/cs417/latest/Public/solverDiscussion/)
      into `newtons_method.py`, replacing the previous contents.
   8. Run `git add .`
   8. Run `git commit -m "Clean up unused imports & add main function docstring"`
   8. Copy the example code from the `newtons_method_6.py` listing from
-     [here](https://www.cs.odu.edu/~tkennedy/cs417/s20/Public/solverDiscussion/)
+     [here](https://www.cs.odu.edu/~tkennedy/cs417/latest/Public/solverDiscussion/)
      into `newtons_method.py`, replacing the previous contents.
   8. Run `git add .`
   8. Run `git commit -m "Modify code to use Python's Decimal type instead of float"`
